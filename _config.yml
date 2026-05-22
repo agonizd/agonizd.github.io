@@ -1,0 +1,18 @@
+title: Agonizd's Blog
+email: hello@example.com
+description: >-
+  A personal blog powered by Jekyll
+baseurl: ""
+url: "https://agonizd.github.io"
+github_username: agonizd
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Agonizd
