@@ -1,3 +1,5 @@
+version: '3.8'
+
 services:
   jekyll:
     image: jekyll/jekyll:latest
@@ -7,3 +9,6 @@ services:
     volumes:
       - .:/srv/jekyll
     working_dir: /srv/jekyll
+    environment:
+      - JEKYLL_ENV=development
+      - LANG=C.UTF-8
