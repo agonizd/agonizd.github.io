@@ -25,7 +25,7 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@ec025c3d
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
 
